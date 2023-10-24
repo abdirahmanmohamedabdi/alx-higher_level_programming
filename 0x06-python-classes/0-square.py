@@ -1,6 +1,6 @@
 #!/usr/bin/pyhton3
 # 0-square.py by Abdirahman Abdi
-"""Define a square"""
+"""Defines a square """
 
 
 class Square:
