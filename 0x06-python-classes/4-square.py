@@ -6,7 +6,7 @@
 class Square:
     """A class that represents a square"""
 
-    def __init_(self, size=0):
+    def __init__(self, size=0):
         """Initializing this square class
         Args:
             size: represents the size of the square defined
@@ -16,9 +16,9 @@ class Square:
         """
 
         if not isinstance(size, int):
-            raise TypeError('Size must be an integer')
+            raise TypeError('size must be an integer')
         if size < 0:
-            raise ValueError('Size must be >= 0')
+            raise ValueError('size must be >= 0')
 
         self.__size = size
 
@@ -33,7 +33,7 @@ class Square:
         if not isinstance(value, int):
             raise TypeError('Size must be an integer')
         if value < 0:
-            raise ValueError('Size must be >= -0')
+            raise ValueError('Size must be >= 0')
         self.__size = value
 
     def area(self):
@@ -42,4 +42,4 @@ class Square:
         Returns: The square of the size
         """
 
-        return(self.__size ** 2)
+        return (self.__size ** 2)
