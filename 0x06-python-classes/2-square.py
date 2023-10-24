@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 # 0-square by Abdirahman Abdi
-"""A module that defines a square"""
+"""A module that defines a square """
 
 
 class Square:
