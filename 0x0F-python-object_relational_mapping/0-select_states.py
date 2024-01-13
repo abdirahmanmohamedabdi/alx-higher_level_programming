@@ -10,7 +10,7 @@ if __name__ == "__main__":
 port=3306)
     cur = db.cursor()
     cur.execute("SELECT * FROM states")
-    rows = cur.fetcha11()
+    rows = cur.fetchall()
     for row in rows:
         print(row)
     cur.close()
